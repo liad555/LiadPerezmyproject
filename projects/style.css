@@ -51,31 +51,8 @@ header {
     color: #007bff;
 }
 
-.humburger-menu {
-    display: none;
-    font-size: 32px;
-    cursor: pointer;
-    position: absolute;
-    right: 20px;
-    top: 15px;
-}
-
-@media screen and (max-width: 768px) {
-    .humburger-menu {
-        display: block;
-    }
-}
 
 
-/* אם ה-checkbox נלחץ, יופיע ה-nav */
-.menu-checkbox:checked+.humburger-menu+.main-nav {
-    display: flex;
-}
-
-
-.menu-checkbox {
-    display: none;
-}
 
 .my_name {
     align-items: center;
